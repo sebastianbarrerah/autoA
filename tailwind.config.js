@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        fDark: "url('https://marclopezavila.github.io/planet-defense-game/img/space.jpg')",
+        flight: "url('https://static.vecteezy.com/system/resources/previews/004/704/038/large_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
