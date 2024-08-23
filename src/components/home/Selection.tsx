@@ -14,7 +14,7 @@ export const SelectionForm = () => {
                 id="level"
                 value={level}
                 onChange={(e) => setLevel(e.target.value)}
-                className="px-4 py-2 bg-gray-800 text-white rounded-md"
+                className="px-4 py-2 bg-[#ff7e08] text-white rounded-md"
             >
                 <option value="" disabled>Selecciona un nivel</option>
                 <option value="Alto">Alto</option>
@@ -31,7 +31,7 @@ export const SelectionForm = () => {
                 id="technologies"
                 value={technologies}
                 onChange={(e) => setTechnologies(e.target.value)}
-                className="px-4 py-2 bg-gray-800 text-white rounded-md"
+                className="px-4 py-2 bg-[#ff7e08] text-white rounded-md"
             >
                 <option value="" disabled>Selecciona una tecnología</option>
                 <option value="Java">Java</option>
