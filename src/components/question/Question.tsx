@@ -21,11 +21,6 @@ const Question = () => {
         </div> */}
       </section>
 
-      <section className="flex justify-end px-4 sm:px-10">
-        <button className="px-6 py-3 sm:px-8 sm:py-4 bg-orange-500 rounded-xl my-5 text-base sm:text-xl transition-all hover:bg-slate-300 dark:hover:bg-slate-800">
-          Siguiente pregunta 
-        </button>
-      </section>
     </main>
   );
 };

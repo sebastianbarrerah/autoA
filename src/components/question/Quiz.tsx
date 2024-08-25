@@ -25,8 +25,9 @@ const Quiz = () => {
               value="A"
               checked={selectedOption === 'A'}
               onChange={handleOptionChange}
-              className="form-radio cursor-pointer"
+              className="form-radio cursor-pointer p-10 bg-slate-500"
             />
+
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
           </label>
         </div>
@@ -66,6 +67,12 @@ const Quiz = () => {
             <span>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</span>
           </label>
         </div>
+        
+        <section className="flex justify-end px-4 sm:px-10 w-full sm:m-0 sm:p-0">
+          <button className={`px-6 py-3 sm:px-8 sm:py-4 bg-orange-500 rounded-xl text-base sm:text-xl transition-all hover:bg-slate-300 dark:hover:bg-slate-800 content-center ${selectedOption == null? "disabled: opacity-25 pointer-events-none": ''}`} >
+            Siguiente pregunta 
+          </button>
+      </section>
       </form>
     </div>
   );
