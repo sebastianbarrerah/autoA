@@ -3,6 +3,7 @@ import Home from "../pages/Home"
 import Login from "@/pages/Login"
 import { ThemeProvider } from "@/components/theme/Theme-provider"
 import Question from "@/components/question/Question"
+import RegisterPage from "@/pages/Register"
 
 const Router = () => {
   return (
@@ -12,6 +13,7 @@ const Router = () => {
               <Route path='/home' element={<Home/>} />
               <Route path='/' element={<Login/>} />
               <Route path='/preguntas' element={<Question/>} />
+              <Route path='/registro' element={<RegisterPage/>} />
           </Routes>
       </BrowserRouter>
     </ThemeProvider>
